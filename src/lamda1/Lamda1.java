@@ -1,4 +1,4 @@
-package Lamda1;
+package lamda1;
 
 public class Lamda1 {
 

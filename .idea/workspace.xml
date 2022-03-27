@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1399e34-3663-451d-a7a7-fa143d29ea30" name="Default Changelist" comment="" />
+    <list default="true" id="f1399e34-3663-451d-a7a7-fa143d29ea30" name="Default Changelist" comment="commit1">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/OptionalEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/StreamMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lamda1/Lamda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda1/Lamda1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lamda1/MyFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda1/MyFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/Stream1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/Stream1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StreamFilterDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/StreamFilterDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StreamSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/StreamSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,26 +26,45 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="26bWYoB3qX90CeFluwve6VuCN1a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33769634" />
   </component>
-  <component name="RunManager" selected="Application.StreamSorted">
-    <configuration name="Stream1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.Stream1" />
+  <component name="RunManager" selected="Application.OptionalEx">
+    <configuration name="OptionalEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalEx" />
       <module name="Java8Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stream1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.Stream1" />
+      <module name="Java8Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -43,11 +73,24 @@
       </method>
     </configuration>
     <configuration name="StreamFilterDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamFilterDistinct" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamFilterDistinct" />
       <module name="Java8Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.StreamMap" />
+      <module name="Java8Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="StreamSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamSorted" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamSorted" />
       <module name="Java8Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,65 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functionPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionPackage.functionPackage" />
-      <module name="Java8Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functionPackageEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionPackage.functionPackageEx2" />
-      <module name="Java8Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Java8Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Java8Study" />
-      <option name="filePath" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalEx" />
+        <item itemvalue="Application.StreamMap" />
         <item itemvalue="Application.StreamSorted" />
         <item itemvalue="Application.StreamFilterDistinct" />
         <item itemvalue="Application.Stream1" />
-        <item itemvalue="Application.functionPackageEx2" />
-        <item itemvalue="Application.functionPackage" />
       </list>
     </recent_temporary>
   </component>
@@ -142,10 +144,34 @@
       <workItem from="1647752064806" duration="8241000" />
       <workItem from="1648289876273" duration="3824000" />
       <workItem from="1648364381098" duration="773000" />
+      <workItem from="1648367274373" duration="12587000" />
     </task>
+    <task id="LOCAL-00001" summary="commit1">
+      <created>1648367347891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648367347891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
   </component>
 </project>

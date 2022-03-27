@@ -1,4 +1,4 @@
-package Stream;
+package stream;
 
 public class Student implements Comparable<Student>{
 

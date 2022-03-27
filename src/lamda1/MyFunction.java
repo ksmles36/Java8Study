@@ -1,4 +1,4 @@
-package Lamda1;
+package lamda1;
 
 @FunctionalInterface
 interface MyFunction {
